@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Puneeth Grand Hotel | Booking</title>
+
+    <meta name="description" content="Book your stay at Puneeth Grand Hotel.">
+
+    <meta name="keywords" content="hotel booking, room booking, hotel reservation">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="logo">
+            <h2>Puneeth Grand Hotel</h2>
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="rooms.html">Rooms</a></li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li><a href="booking.html" class="active">Booking</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Booking Section -->
+
+    <section>
+
+        <h1 style="text-align:center;color:#003366;">Book Your Room</h1>
+
+        <form onsubmit="return validateBooking()">
+
+            <label>Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label>Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+
+            <label>Check-in Date</label>
+            <input type="date" id="checkin">
+
+            <label>Check-out Date</label>
+            <input type="date" id="checkout">
+
+            <label>Room Type</label>
+
+            <select>
+                <option>Deluxe Room</option>
+                <option>Luxury Suite</option>
+                <option>Family Room</option>
+            </select>
+
+            <label>Number of Guests</label>
+
+            <select>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>&copy; 2026 Puneeth Grand Hotel. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
